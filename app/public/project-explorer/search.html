@@ -39,28 +39,30 @@
    </div>
         <div class="search container bg-light p-3">
             <div class="form">
-                <div class="form-content">
-                    <div class="form-row">
-                        <div class="form-group col-sm-12 col-md">
-                            <input type="text" class="form-control form-control-lg" id="" placeholder="project name,Author,Absract,Tags" name="searchTerm" required>
-                        </div>
+                <form>
+                    <div class="form-content">
+                        <div class="form-row">
+                            <div class="form-group col-sm-12 col-md">
+                                <input type="text" class="form-control form-control-lg" id="" placeholder="project name,Author,Abstract,Tags" name="searchTerm" required>
+                            </div>
 
-                        <div>
-                            <form name="searchForm">
-                                <div class="form-group col-sm-12 col-md input-group mb-3">
-                                    <label for="searchby" class="form-label input-group-text">SearchBy</label>
-                                    <select id="searchForm" class="form-control" name="searchType" required>
-                                        <option selected>Name</option>
-                                        <option>Abstract</option>
-                                        <option>Authors</option>
-                                        <option>Tags</option>
-                                    </select>
-                                </div>
-                            </form>
+                            <div>
+                                <form name="searchForm">
+                                    <div class="form-group col-sm-12 col-md input-group mb-3">
+                                        <label for="searchby" class="form-label input-group-text">SearchBy</label>
+                                        <select id="searchForm" class="form-control" name="searchType" required>
+                                            <option selected>Name</option>
+                                            <option>Abstract</option>
+                                            <option>Authors</option>
+                                            <option>Tags</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
                         </div>
-                            <button type="submit" class="btn btn-lg btn-primary">Submit</button>
                     </div>
-                </div>
+                </form>
 
             </div> 
         </div>
